@@ -18,7 +18,7 @@ app.get('/count',function(req,res){
       req.session.count = 1 ;
   }
 
-  res.send('count:'+  req.session.count);
+  res.send('count : '+  req.session.count );
 })
 app.get('/welcome', function(req,res){
   if(req.session.displayName){
