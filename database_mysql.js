@@ -5,7 +5,7 @@ var conn = mysql.createConnection({
   password:'asd6145',
   database:'o2',
 });
-
+ 
 conn.connect();
 /*    //js이용 DB 셀렉트 하는방법
 var sql = 'SELECT * FROM  topic';
